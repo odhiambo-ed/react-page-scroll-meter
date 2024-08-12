@@ -1,8 +1,10 @@
-
+import './Scroll.css'
 
 function Scroll() {
   return (
-    <div>Scroll</div>
+      <div className="scroll-width">
+          <div className="scroll-percent"></div>
+    </div>
   )
 }
 
