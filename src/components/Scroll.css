@@ -4,3 +4,10 @@
     background-color: #BEC6A0;
     position: fixed;
 }
+
+.scroll-percent {
+    width: 90%;
+    height: 3px;
+    background-color: red;
+    position: fixed;
+}
