@@ -6,7 +6,6 @@
 }
 
 .scroll-percent {
-    width: 90%;
     height: 3px;
     background-color: red;
     position: fixed;
