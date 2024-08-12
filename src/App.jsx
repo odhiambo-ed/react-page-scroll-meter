@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Nav from './components/Nav'
+import Scroll from './components/Scroll';
 
 function App() {
   const [content, setContent] = useState([]);
@@ -28,6 +29,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Scroll />
       <div className="container d-flex flex-column pt-4">
         {
           content && content.length > 0 ? 
