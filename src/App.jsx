@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Nav />
-      <div className="container d-flex flex-column align-items-center pt-4">
-        <p>Jesus</p>
+      <div className="container d-flex flex-column pt-4">
+        <p className='text-start'>Jesus</p>
       </div>
     </>
   )
