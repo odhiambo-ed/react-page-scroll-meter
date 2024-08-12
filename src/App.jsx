@@ -1,10 +1,11 @@
 import './App.css'
+import Nav from './components/Nav'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-center'>Jesus did it again</h1>
+      <Nav />
     </>
   )
 }
