@@ -2,7 +2,7 @@
 
 function Nav() {
     return (
-      <nav className="navbar" style={{ backgroundColor: "#FEF3E2" }}>
+      <nav className="navbar sticky-top" style={{ backgroundColor: "#FEF3E2" }}>
         <div className="container-fluid">
           <a className="navbar-brand text-uppercase" href="#">
             Scroll Meter
